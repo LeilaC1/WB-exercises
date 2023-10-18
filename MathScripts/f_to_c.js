@@ -2,7 +2,7 @@
 
 // f - c, c=(f-32)*5/9
 
-var fahrenheit = 39;
+var fahrenheit = 50;
 var celsius = (fahrenheit - 32) * 5 / 9;
 
-console.log(fahrenheit + " degree is " + celsius + " degree celsius")
+console.log(fahrenheit + " degree fahrenheit is " + celsius + " degree celsius");
