@@ -7,23 +7,23 @@ var smallestValue;
 var largestValue;
 
 
+if (a <= b && a <= c) {
+    smallestValue = a;
+} else if (b <= a && b <= c) {
+    smallestValue = b;
+} else if (c <= a && c <= b) {
+    smallestValue = c;
+}
 
+console.log("smallest value = " + smallestValue)
 
-// if (a < b && c) {
-// largestValue =  "a";  
-// } else if (b < a && c) {
-//     largestValue =  "b"; 
-// } else {
-//     largestValue = "c";
-// }
+if (a >= b && a >= c) {
+    largestValue = a;
+} else if (b >= a && b >= c) {
+    largestValue = b;
+} else if (c >= a && c >= b){
+    largestValue = c;
+}
 
+console.log("largest value = " + largestValue)
 
-// console.log("largest value = " + largestValue)
-
-// if (a < b && c) {
- //   smallestValue =  "a";  
-  //   } else if (b < a && c) {
-   //      smallestValue =  "b"; 
- //    } else if (c < a && b){
-   //      smallestValue =  "c";
-   //  }
