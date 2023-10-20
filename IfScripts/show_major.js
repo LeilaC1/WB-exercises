@@ -9,7 +9,7 @@ let major;
 
 /* needs location and name*/
 
-if (studentName === "Betty" && studentMajorCode == "CSCI") {
+if (studentName === "Betty" && studentMajorCode === "CSCI") {
      major = "Computer Science";
      departmentLocation = "Sheppard Hall, Room 314";
 } else if (studentMajorCode == "ENG") {
